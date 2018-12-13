@@ -1,0 +1,20 @@
+{
+  "short_name": "Software At Hand LLC",
+  "name": "Software At Hand LLC",
+  "icons": [
+    {
+      "src": "~/favicon.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "/images/SoftwareAtHand.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#2e231f",
+  "display": "standalone",
+  "theme_color": "#2e231f"
+}
