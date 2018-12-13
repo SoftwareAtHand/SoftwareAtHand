@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Software company specializing in creating accessible websites and mobile applications." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Software At Hand LLC" />
+    <meta property="og:description" content="Software company specializing in creating accessible websites and mobile applications." />
+    <meta property="og:image" content="http://www.software-at-hand.com/images/SoftwareAtHand.jpg" />
+    <meta property="og:url" content="http://www.software-at-hand.com" />
+    <meta property="og:site_name" content="Software At Hand LLC" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="SoftwareAtHand" />
+    <meta name="twitter:image:alt" content="" />
+    <meta name="twitter:app:country" content="US">
+    <meta name="twitter:creator" content="Sharon A. Hamon" />
+    <meta property="fb:app_id" content="326260591454818" />
+    <meta name="theme-color" content="#2e231f" />
+    <title>Software At Hand LLC</title>
+    <link href="~/css/SoftwareAtHand.css" rel="stylesheet">
+    <link href="~/css/FontAwesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="~/SoftwareAtHand.jpg">
+    <link rel="manifest" href="~/manifest.json">
+
+    <!--environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment-->
+
+</head>
+<body>
+    <!--
+    <a href="what_we_do" hidden aria-hidden="false">Skip to main content</a>-->
+    <!--nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">SoftwareAtHand</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav-->
+
+    <div class="container body-content">
+        <header id="banner" name="banner" role="banner">
+            <a href="http://www.software-at-hand.com"><img src="~/images/SoftwareAtHand.jpg" alt="Software At Hand LLC" /></a>
+
+            <span id="site_name">
+                <span>Software At Hand LLC</span>
+            </span>
+
+            <span id="social_media_icons_header">
+                <a href="https://www.facebook.com/SoftwareAtHand" class="fa fa-facebook" aria-label="Facebook"></a>
+                <a href="https://twitter.com/SoftwareAtHand" class="fa fa-twitter" aria-label="Twitter"></a>
+            </span>
+        </header>
+
+        @RenderBody()
+
+        <footer>
+
+            <nav role="navigation">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-info navbar-btn">What We Do</a> |
+                <a asp-controller="Home" asp-action="Privacy" class="btn btn-info navbar-btn">Privacy Policy</a>
+            </nav>
+
+            <p>
+                &copy;
+                <script>var year = new Date().getFullYear(); document.write(year > 2018 ? "2018-" + year + " " : "" + year + " ");</script>
+                Software At Hand LLC
+            </p>
+
+            <h2 hidden aria-hidden="false" role="heading" aria-level="2">Social Media</h2>
+            <span id="social_media_icons_footer" aria-label="social media icons">
+                <h3 hidden aria-hidden="false" role="heading" aria-level="3">Facebook</h3>
+                <a href="https://www.facebook.com/SoftwareAtHand" class="fa fa-facebook" aria-label="Facebook"></a>
+                <h3 hidden aria-hidden="false" role="heading" aria-level="3">Twitter</h3>
+                <a href="https://twitter.com/SoftwareAtHand" class="fa fa-twitter" aria-label="Twitter"></a>
+            </span>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

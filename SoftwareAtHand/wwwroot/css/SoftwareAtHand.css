@@ -1,0 +1,196 @@
+﻿body {
+    color: #2e231f;
+    background-color: #263c8b;
+    margin: 10px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+p {
+    padding-left: 10px;
+}
+
+a, button {
+    color: #2e231f;
+    background-color: #9BB2D0;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2e231f;
+    font-family: "Cinzel", sans-serif;
+    font-size: 14px;
+    padding: 5px;
+}
+
+#banner {
+    background-color: #9BB2D0;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+#banner img {
+    border-radius: 10px;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+header #social_media_icons_header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    visibility: visible;
+}
+
+#social_media_icons_header > a.fa,
+#social_media_icons_footer > a.fa {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+#site_logo {
+    border-radius: 10px;
+}
+
+#site_name > span {
+    color: #2e231f;
+    font-family: "Cinzel", sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-size: 24px;
+    display: inline;
+    bottom: 20px;
+    left: 100px;
+    position: absolute;
+}
+
+#main_grid_layout {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px auto;
+    grid-template-areas: 
+        "left_sidebar main_content" 
+}
+
+.main_content {
+    grid-area: main_content;
+}
+
+.left_sidebar {
+    grid-area: left_sidebar;
+}
+
+#what_we_do {
+    background-color: #bfa524;
+    grid-column: 2 / 3;
+    grid-row: 1;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #bdbf78;
+    grid-column: 1;
+    border-radius: 10px;
+}
+
+#our_address {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#our_phone {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#our_email {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+footer {
+    background-color: #9BB2D0;
+    position: sticky relative;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+#copyright {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+footer #social_media_icons_footer {
+    position: sticky relative;
+    bottom: 0px;
+    left: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: auto;
+}
+
+footer nav {
+    margin-left: 10px;
+}
+
+#privacy, #cookieConsent {
+    border-radius: 10px;
+    background-color: #bdbf78;
+}
+
+#cookieConsent {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* Portrait */
+@media only screen and (max-width: 450px) {
+    header, #banner, #site_name, #site_logo, #social_media_icons_header, #banner img {
+        display: none;
+    }
+
+    #main_grid_layout {
+        grid-template-columns: 100%;
+        grid-template-areas: "main_content" "left_sidebar";
+    }
+
+    #what_we_do {
+        background-color: #bfa524;
+        grid-column: 1;
+        grid-row: 1;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (prefers-color-scheme: light) {
+    body, #banner, footer, #what_we_do, aside {
+        background-color: white;
+    }
+}
