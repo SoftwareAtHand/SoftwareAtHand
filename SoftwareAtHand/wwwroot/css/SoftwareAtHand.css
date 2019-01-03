@@ -1,6 +1,6 @@
 ﻿body {
     color: #2e231f;
-    background-color: #263c8b;
+    background-color: #55ACEE;
     margin: 10px;
     font-family: "Exo 2", sans-serif;
     font-size: 12px;
@@ -13,7 +13,7 @@ p {
 
 a, button {
     color: #2e231f;
-    background-color: #9BB2D0;
+    background-color: white;
     border-radius: 10px;
 }
 
@@ -30,15 +30,17 @@ h6 {
 }
 
 #banner {
-    background-color: #9BB2D0;
+    background-color: white;
     border-radius: 10px;
     position: sticky;
     top: 0px;
     left: 0px;
-    height: 100px;
+    height: 105px;
     width: 100%;
     display: inline-block;
     font-weight: bolder;
+    border: 2px solid #3B5998;
+    border-radius: 10px;
 }
 
 #banner img {
@@ -92,7 +94,7 @@ nav li {
     grid-gap: 10px;
     grid-template-columns: 150px auto;
     grid-template-areas: 
-        "left_sidebar main_content" 
+        "left_sidebar main_content";
 }
 
 .main_content {
@@ -104,15 +106,19 @@ nav li {
 }
 
 #what_we_do {
-    background-color: #bfa524;
+    background-color: white;
     grid-column: 2 / 3;
     grid-row: 1;
+    border-radius: 10px;
+    border: 2px solid #3B5998;
     border-radius: 10px;
 }
 
 aside {
-    background-color: #bdbf78;
+    background-color: white;
     grid-column: 1;
+    border-radius: 10px;
+    border: 2px solid #3B5998;
     border-radius: 10px;
 }
 
@@ -132,13 +138,16 @@ aside {
 }
 
 footer {
-    background-color: #9BB2D0;
+    background-color: white;
     position: sticky relative;
     bottom: 0px;
     left: 0px;
     border-radius: 10px;
     display: inline-block;
     width: 100%;
+    border: 2px solid #3B5998;
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 #copyright {
@@ -162,7 +171,7 @@ footer nav {
 
 #privacy, #cookieConsent {
     border-radius: 10px;
-    background-color: #bdbf78;
+    background-color: white;
 }
 
 #cookieConsent {
@@ -170,6 +179,13 @@ footer nav {
     padding-bottom: 10px;
     padding-left: 10px;
 }
+
+#privacy {
+    border: 2px solid #3B5998;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Portrait */
 @media only screen and (max-width: 450px) {
     header, #banner, #site_name, #site_logo, #social_media_icons_header, #banner img {
@@ -182,9 +198,11 @@ footer nav {
     }
 
     #what_we_do {
-        background-color: #bfa524;
+        background-color: white;
         grid-column: 1;
         grid-row: 1;
+        border-radius: 10px;
+        border: 2px solid #3B5998;
         border-radius: 10px;
     }
 }
