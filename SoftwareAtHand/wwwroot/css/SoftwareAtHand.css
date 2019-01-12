@@ -32,7 +32,6 @@ h6 {
 #banner {
     background-color: white;
     border-radius: 10px;
-    position: sticky;
     top: 0px;
     left: 0px;
     height: 105px;
@@ -80,9 +79,8 @@ nav li {
     white-space: nowrap;
     border-radius: 10px;
     font-size: 24px;
-    display: inline;
-    bottom: 20px;
-    left: 80px;
+    top: 60px;
+    left: 90px;
     position: absolute;
 }
 
