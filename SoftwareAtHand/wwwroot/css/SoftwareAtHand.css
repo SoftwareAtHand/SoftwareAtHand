@@ -82,7 +82,7 @@ nav li {
     font-size: 24px;
     display: inline;
     bottom: 20px;
-    left: 100px;
+    left: 80px;
     position: absolute;
 }
 
@@ -187,8 +187,8 @@ footer nav {
 }
 
 /* Portrait */
-@media only screen and (max-width: 450px) {
-    header, #banner, #site_name, #site_logo, #social_media_icons_header, #banner img {
+@media only screen and (max-width: 550px) {
+    #social_media_icons_header {
         display: none;
     }
 

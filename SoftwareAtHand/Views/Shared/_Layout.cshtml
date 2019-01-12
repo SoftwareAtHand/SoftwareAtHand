@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@{var title = @ViewData["Title"] + " | Software At Hand LLC"; }
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -16,7 +18,7 @@
     <meta name="twitter:creator" content="Sharon A. Hamon" />
     <meta property="fb:app_id" content="326260591454818" />
     <meta name="theme-color" content="#2e231f" />
-    <title>Software At Hand LLC</title>
+    <title>@{@title}</title>
     <link href="~/css/SoftwareAtHand.css" rel="stylesheet">
     <link href="~/css/FontAwesome.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Exo+2" rel="stylesheet">
