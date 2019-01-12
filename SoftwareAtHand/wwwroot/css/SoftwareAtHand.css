@@ -74,12 +74,11 @@ nav li {
 #site_name > span {
     color: #2e231f;
     font-family: "Cinzel", sans-serif;
-    font-size: 14px;
     padding: 5px;
     white-space: nowrap;
     border-radius: 10px;
-    font-size: 24px;
-    top: 60px;
+    font-size: 20px;
+    top: 55px;
     left: 90px;
     position: absolute;
 }
