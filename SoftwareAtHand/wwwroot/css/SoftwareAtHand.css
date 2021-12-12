@@ -5,6 +5,7 @@
     font-family: "Exo 2", sans-serif;
     font-size: 12px;
     line-height: 1.5em;
+    min-width: 600px;
 }
 
 p {
@@ -34,7 +35,8 @@ h6 {
     border-radius: 10px;
     top: 0px;
     left: 0px;
-    height: 105px;
+    min-height: 105px;
+    min-width: 600px;
     width: 100%;
     display: inline-block;
     font-weight: bolder;
@@ -79,7 +81,6 @@ nav li {
     border-radius: 10px;
     font-size: 20px;
     top: 55px;
-    left: 90px;
     position: absolute;
 }
 
@@ -142,6 +143,7 @@ footer {
     border-radius: 10px;
     display: inline-block;
     width: 100%;
+    min-width: 600px;
     border: 2px solid #3B5998;
     border-radius: 10px;
     padding-bottom: 10px;
@@ -210,4 +212,8 @@ footer nav {
     body, #banner, footer, #what_we_do, aside {
         background-color: white;
     }
+}
+
+section {
+    min-width: 600px;
 }
