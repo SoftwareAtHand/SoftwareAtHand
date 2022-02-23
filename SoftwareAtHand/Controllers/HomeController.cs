@@ -15,33 +15,6 @@ namespace SoftwareAtHand.Controllers
             return View();
         }
 
-        public IActionResult Accessibility()
-        {
-            return View();
-        }
-        public IActionResult Business()
-        {
-            return View();
-        }
-        public IActionResult Design()
-        {
-            return View();
-        }
-        public IActionResult Freelance()
-        {
-            return View();
-        }
-
-        public IActionResult Prototyping()
-        {
-            return View();
-        }
-
-        public IActionResult Testing()
-        {
-            return View();
-        }
-
         /*public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
