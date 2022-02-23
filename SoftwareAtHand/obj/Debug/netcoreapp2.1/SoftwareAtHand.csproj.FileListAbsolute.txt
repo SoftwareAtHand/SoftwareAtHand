@@ -39,7 +39,6 @@ C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\bin\Debug\netcoreapp2.1\Soft
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\bin\Debug\netcoreapp2.1\SoftwareAtHand.pdb
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\bin\Debug\netcoreapp2.1\SoftwareAtHand.Views.dll
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\bin\Debug\netcoreapp2.1\SoftwareAtHand.Views.pdb
-C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.csprojAssemblyReference.cache
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.AssemblyInfoInputs.cache
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.AssemblyInfo.cs
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.csproj.CoreCompileInputs.cache
@@ -65,3 +64,5 @@ C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\Soft
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.pdb
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.genruntimeconfig.cache
 C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.csproj.CopyComplete
+C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.csproj.AssemblyReference.cache
+C:\Users\sharo\GitHub\SoftwareAtHand\SoftwareAtHand\obj\Debug\netcoreapp2.1\SoftwareAtHand.GeneratedMSBuildEditorConfig.editorconfig
